@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chroma key: Veja o passo-a-passo de como fazer esse efeito | MyLiveOnline</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+    <meta name="theme-color" content="#8a00e2">
+    <meta property="og:url" content="http://myliveonline.com.br/post3.html" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Chroma key: Veja o passo-a-passo de como fazer esse efeito" />
+    <meta property="og:description" content="Se você já assistiu algum filme hollywoodiano com várias cenas impressionantes, efeitos especiais quase que inacreditáveis, você já se deparou com o efeito Chroma key." />
+    <meta property="og:image" content="http://myliveonline.com.br/img/post3.png" />
+    <meta property="og:locale" content="pt_BR" />
+
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window,document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '306272146853650');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1"
+        src="https://www.facebook.com/tr?id=306272146853650&ev=PageView
+        &noscript=1"/>
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                    <div class="area-logo">
+                            <h2>
+                              <a href="http://myliveonline.com.br/"><svg id="logo" class="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 563.23 197.77">
+                                <title>My Live Online</title>
+                                <g id="purple-circle">
+                                  <circle cx="98.89" cy="98.89" r="95.89" fill="#fff" stroke="#222220" stroke-miterlimit="10" stroke-width="6"/>
+                                  <polygon points="77.08 44.18 147.69 98.15 77.08 153.59 77.08 44.18" fill="#fff" stroke="#222220" stroke-miterlimit="10"/>
+                                </g>
+                                <g id="text">
+                                  <path id="letra-m" d="M259.44,49.14h8.94l8.35,22.91h.14l8.26-22.91h9V81.39h-5.67V55.47h-.09l-9.77,25.92h-4L265,55.47h-.09V81.39h-5.44Z" fill="#222220" stroke="#222220" stroke-miterlimit="10" stroke-width="4"/>
+                                  <path id="letra-y" d="M315.78,67.41,303.7,49.14h7l8.09,13.58L327,49.14h6.63L321.5,67.41v14h-5.72Z" fill="#222220" stroke="#222220" stroke-miterlimit="10" stroke-width="4"/>
+                                  <path id="letra-l-1" class="letra-l" d="M368.21,33.54h8.49V73.82H397v7.57H368.21Z" fill="#222220" stroke="#222220" stroke-miterlimit="10" stroke-width="4"/>
+                                  <path id="letra-i-1" class="letra-i" d="M412.74,33.54h8.49V81.39h-8.49Z" fill="#222220" stroke="#222220" stroke-miterlimit="10" stroke-width="4"/>
+                                  <path id="letra-v" d="M435.92,33.54h9.49l13.14,36.83h.27l13.27-36.83h9.16L462.12,81.39h-7.34Z" fill="#222220" stroke="#222220" stroke-miterlimit="10" stroke-width="4"/>
+                                  <path id="letra-e-1" class="letra-e" d="M495.94,33.54h31.6V41H504.43V53.14h21.89V60.3H504.43V73.82h24.32v7.57H495.94Z" fill="#222220" stroke="#222220" stroke-miterlimit="10" stroke-width="4"/>
+                                  <path id="letra-o" d="M309.79,138.51a26.32,26.32,0,0,1-1.92,10.17,24.14,24.14,0,0,1-5.29,8,23.79,23.79,0,0,1-8,5.2,28.27,28.27,0,0,1-20.17,0,23.33,23.33,0,0,1-13.24-13.18,28.5,28.5,0,0,1,0-20.41,23,23,0,0,1,5.25-7.91,24,24,0,0,1,8-5.11,28.85,28.85,0,0,1,20.17,0,23.88,23.88,0,0,1,8,5.11,23.24,23.24,0,0,1,5.29,7.91A26.46,26.46,0,0,1,309.79,138.51Zm-7.21,0a21.41,21.41,0,0,0-1.28-7.41,18.62,18.62,0,0,0-3.64-6.11,16.93,16.93,0,0,0-5.69-4.16,19.16,19.16,0,0,0-15,0,16.48,16.48,0,0,0-5.65,4.16,19.08,19.08,0,0,0-3.61,6.11,21.41,21.41,0,0,0-1.28,7.41,21.8,21.8,0,0,0,1.28,7.5,18.43,18.43,0,0,0,3.64,6.12,16.93,16.93,0,0,0,5.66,4.08,17.71,17.71,0,0,0,7.41,1.49,18.2,18.2,0,0,0,7.48-1.49,16.78,16.78,0,0,0,5.72-4.08A18.26,18.26,0,0,0,301.3,146,21.8,21.8,0,0,0,302.58,138.51Z" fill="#222220" stroke="#222220" stroke-miterlimit="10" stroke-width="4"/>
+                                  <path id="letra-n-1" class="letra-n" d="M357,152.9h.14V114.65h6.67V162.5H355.4l-25.2-39.07h-.13V162.5H323.4V114.65h8.69Z" fill="#222220" stroke="#222220" stroke-miterlimit="10" stroke-width="4"/>
+                                  <path id="letra-l-2" class="letra-l" d="M386.59,156.55h21.29v5.95h-28V114.65h6.67Z" fill="#222220" stroke="#222220" stroke-miterlimit="10" stroke-width="4"/>
+                                  <path id="letra-i-2" class="letra-i" d="M425.53,162.5h-6.67V114.65h6.67Z" fill="#222220" stroke="#222220" stroke-miterlimit="10" stroke-width="4"/>
+                                  <path id="letra-n-2" class="letra-n" d="M475.25,152.9h.13V114.65h6.67V162.5h-8.42l-25.2-39.07h-.13V162.5h-6.67V114.65h8.69Z" fill="#222220" stroke="#222220" stroke-miterlimit="10" stroke-width="4"/>
+                                  <path id="letra-e-2" class="letra-e" d="M504.82,156.55h24.93v5.95h-31.6V114.65h30.59v5.88H504.82v14.33h22.5v5.74h-22.5Z" fill="#222220" stroke="#222220" stroke-miterlimit="10" stroke-width="4"/>
+                                </g>
+                                <g id="corners">
+                                  <rect x="226.74" y="3" width="8.82" height="48.24" fill="#181713"/>
+                                  <rect x="246.68" y="-16.71" width="8.82" height="48.24" transform="translate(243.68 258.49) rotate(-90)" fill="#181713"/>
+                                  <rect x="534.7" y="-16.6" width="8.82" height="48.24" transform="translate(546.63 -531.59) rotate(90)" fill="#181713"/>
+                                  <rect x="554.41" y="3.34" width="8.82" height="48.24" fill="#181713"/>
+                                  <rect x="554.36" y="146.76" width="8.82" height="48.24" transform="translate(1117.54 341.76) rotate(180)" fill="#181713"/>
+                                  <rect x="534.42" y="166.47" width="8.82" height="48.24" transform="translate(729.42 -348.24) rotate(90)" fill="#181713"/>
+                                  <rect x="246.45" y="166.47" width="8.82" height="48.24" transform="translate(60.27 441.45) rotate(-90)" fill="#181713"/>
+                                  <rect x="226.74" y="146.54" width="8.82" height="48.24" transform="translate(462.3 341.31) rotate(180)" fill="#181713"/>
+                                </g>
+                              </svg>
+
+                              <span class="alt-logo">MyLiveOnline</span>
+                              </a>
+                          </h2>
+                    </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+      <div class="container">
+        <div class="area-destaque">
+          <div class="area-destaque--texto">
+            <h1 class="titulo">Chroma key: Veja o passo-a-passo de como fazer esse efeito</h1>
+            <p>Se você já assistiu algum filme hollywoodiano com várias cenas impressionantes, efeitos
+                especiais quase que inacreditáveis, você já se deparou com o efeito Chroma key.</p>
+            <p class="metadata">Ketlen | 28 de setembro</p>
+          </div>
+
+          <img class="area-destaque--img" src="img/post3.png"
+            alt="Post 3">
+        </div>
+
+        <div class="area-conteudo">
+          <p>O efeito Chroma key nada mais é que o processo de remover um fundo monocromático, ou seja de uma cor só, de um vídeo e substituí-lo por outro fundo como uma imagem ou vídeo.</p>
+
+              <img src="img/post3-1.png" alt="Imagem 1">
+
+          <p>Pode parecer uma técnica muito complexa de ser feita ou precisar de muito dinheiro para conseguir montar toda a estrutura, mas na verdade é uma técnica bem simples de ser aplicada até mesmo para vídeos online e iremos mostrar a você como através desse guia.</p>
+
+          <h3>Neste conteúdo você irá aprender:</h3>
+          <ul>
+              <li>O que é o Chroma Key;</li>
+              <li>Exemplos de uso do Chroma Key;</li>
+              <li>Como usar o Chroma Key;</li>
+              <li>Como fazer a montagem do Chroma Key;</li>
+              <li>Editores de vídeos compatíveis com fundo Chroma key.</li>
+          </ul>
+
+            <h3>O que é o Chroma Key</h3>
+
+            <p>O Chroma Key é uma ferramenta prática e rápida usada há muitos anos em gravações. E até os dias de hoje, mesmo com todo o avanço da tecnologia, continua sendo muito utilizada. Com ela é possível trocar uma imagem de fundo de cor sólida por outra imagem, seja estática ou em movimento. Um exemplo bastante comum são as previsões do tempo mostradas em telejornais. A demonstração meteorológica fica a frente do fundo verde, substituído por um mapa colorido.</p>
+
+            <img src="img/post3-2.png" alt="Imagem 2">
+
+            <h3>Exemplos de uso do Chroma Key</h3>
+
+            <p>Além das previsões do tempo, o Chroma Key aparece diariamente em nossas vidas mais do que podemos imaginar.</p>
+            <p>Veja alguns desses momentos:</p>
+            <p>- <strong>Programas de televisão:</strong> não somente em telejornais, mas muitos programas utilizam o efeito chroma key para ganhar mais interação e atratividade.</p>
+
+            <img src="img/post3-3.png" alt="Imagem 3">
+
+            <p><strong>- Videoaulas:</strong> nas mais diversas matérias e graus de educação, é possível contar com o uso dessa técnica para
+                tutoriais na internet para que o instrutor exemplifique o seu conteúdo, capaz de deixar o ensino mais didático e divertido.</p>
+
+            <p><strong>- Filmes e seriados:</strong> como falamos anteriormente, grandes filmes de ação e seriados que contam com efeitos especiais usam o Chroma key para tornar o seu enredo a vida real e impressionar os seus telespectadores.</p>
+
+            <img src="img/post3-4.png" alt="Imagem 4">
+
+            <h3>Como usar o Chroma key</h3>
+
+            <p>Você não precisa ter superpoderes em produções audiovisuais para trabalhar com Chroma key. Apenas o que você precisa é planejamento, escolher a cor do fundo com atenção para a etapa de substituição, uma boa filmagem e um software de edição de vídeo que suporte esse efeito.</p>
+
+            <p>Agora vamos ao que interessa, o passo a passo:</p>
+            <h4>O planejamento</h4>
+
+            <p>Antes de tudo, é necessário definir qual o objetivo final do seu vídeo e se perguntar: Qual imagem irei querer substituir o fundo do meu vídeo? Há objetos, pessoas, roupas ou itens que fazem parte do cenário ou na imagem que irei incluir com alguma cor dominante? Conhecer todos esses pontos é fundamental e irá te auxiliar no próximo passo.</p>
+
+            <h4>Definindo a cor do fundo que será substituído</h4>
+
+            <p>Após levar em consideração as perguntas do passo anterior, chegou a hora de definir a cor sólida do fundo que será trocado de seu vídeo. </p>
+
+            <p>É importante levar em consideração a cor predominante da imagem na edição final, pois a cor do fundo reflete um pouco nos objetos da cena (contra-luz colorida chamada de spill), então escolha uma cor próxima da imagem final. </p>
+
+            <p>Por exemplo, se você deseja colocar um céu de verão na cena final, escolha a cor azul. Se deseja incluir uma paisagem cheia de árvores, escolha a cor verde.</p>
+
+            <p>Na prática, você pode escolher qualquer cor de fundo, mas dentre as mais comuns são:</p>
+            <h4>Cor verde</h4>
+
+            <p>O verde, especificamente verde-limão, é o mais utilizado nas filmagens por frequentemente haver poucos objetos dessa mesma cor, dessa forma evita-se uma mistura com o fundo e o desaparecimento na edição. Esse tom entra em consideração também pelo fato de absorver o brilho, controlando assim a claridade e ajudando o processo de pós-produção. </p>
+
+            <h4>Cor azul</h4>
+
+            <p>Para casos onde há objetos verde na cena ou em produções menores, o azul se torna a cor preferida para as gravações. Porém para filmagens em ambiente externo deve-se ter muito cuidado em escolher essa cor, pois se o céu estiver aberto, o efeito será prejudicado. </p>
+
+            <h3>Como fazer a montagem do Chroma Key</h3>
+
+            <p>O mais interessante da técnica chroma key é que ela pode ser caseira e construída de duas maneiras: por tinta ou tecido.</p>
+            <h4>Tinta</h4>
+
+            <p>Caso opte em escolher pintar uma parede, a cor verde é a ideal pois ela se adaptará mais facilmente aos cenários, visto que não será possível trocar a cor da parede a cada nova produção. Tome também os seguintes cuidados:</p>
+
+            <ul>
+                <li>Certificar de não ter nenhum objeto que interfira na captura da filmagem como parafusos e
+                    tomadas;</li>
+                <li>Manter a parede sempre limpa;</li>
+                <li>Usar uma tinta fosca para que não reflita muita luz. Hoje há até tintas específicas para chroma key, facilitando ainda mais o processo.</li>
+            </ul>
+
+            <h4>Tecido</h4>
+
+            <p>Se escolher utilizar tecidos, tenha em mente que esse tipo de material exige cuidados maiores, afinal eles podem amassar, ter diferentes texturas ou refletir muito a luz, dificultando a etapa da edição.</p>
+            <p>Vale pensar também em manter uma estrutura móvel, assim você poderá colocar o tecido e trocá-lo pelas cores mais adequadas para cada vídeo.</p>
+
+            <p>Escolha com cuidado e armazene-os adequadamente e sempre estique bem na hora de usar.</p>
+
+            <p>E finalmente, como o último passo, será necessário utilizar um software de edição de vídeos para remover o fundo de cor sólida, sendo a base da técnica.</p>
+
+            <p>Existem diversos softwares compatíveis com o Chroma key. Os mais recomendados são:</p>
+            <ul>
+                <li>Adobe Premiere</li>
+                <li>Adobe After Effects</li>
+                <li>Sony Vegas</li>
+                <li>Final Cut</li>
+                <li>Windows Movie Maker</li>
+                <li>Camtasia</li>
+                <li>PowerDirector</li>
+                <li>Corel VideoStudio Pro</li>
+            </ul>
+
+            <p>A escolha da ferramenta irá depender das necessidades de seu vídeo para obter o tão
+            desejado e idealizado vídeo final, além de seu nível de conhecimento nelas. Escolha
+            a que mais se encaixa nesses aspectos e mão na massa!</p>
+
+            <h4>Como fazer a troca do fundo no Adobe Premiere</h4>
+
+            <p>O Adobe Premiere é um dos programas de edição mais utilizados no mundo. Ele possui
+            modalidades das mais simples às mais avançadas e conta com diversos recursos.</p>
+
+            <p>O software possui um período gratuito para testes e está disponível para PC e Mac.</p>
+
+            <p>Para que você veja na prática como fazer a substituição do fundo, <a href="https://www.youtube.com/watch?v=m9_eqaXjKes&t=66s" target="_blank">CLIQUE AQUI</a></p>
+
+            <p>Pronto!</p>
+            <p>Viu como é fácil editar os fundos de seus vídeos com a técnica Chroma Key? Não há dúvidas que seus vídeos ficarão bem mais dinâmicos e atrairá mais pessoas. </p>
+
+            <p>Para saber mais sobre o que é e como escolher uma plataforma para hospedagem de vídeos, leia nosso artigo sobre <a href="aprenda-como-calcular-o-ROI-dos-seus-vídeos-com-a-calculadora-my-live-online.html">“Como escolher a melhor plataforma para hospedagem de vídeos”</a>.</p>
+        </div>
+
+      </div>
+
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+
+        <section class="footer-content">
+
+          <div class="footer--social">
+            <a href="https://www.facebook.com/myliveonline.oficial" title="Curta nossa página do Facebook" target="_blank"><img
+                src="img/facebook-icon.png" alt="Ícone do Facebook"></a>
+            <a href="https://www.instagram.com/myliveonline/" title="Nos siga no Instagram" target="_blank"><img src="img/instagram-icon.png"
+                alt="Ícone do Instagram"></a>
+          </div>
+        </section>
+      </div>
+      <div class="copyright">
+        <p>&copy; Copyright My Live Online 2018 | Todos os direitos reservados</p>
+
+        <img class="logo" src="img/logo-mylive-branco.png" alt="Logo do MyLiveOnline">
+
+      </div>
+    </footer>
+
+</body>
+
+</html>
