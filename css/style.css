@@ -98,7 +98,8 @@ body {
 }
 
 .header {
-  border-bottom: 0.2rem solid black;
+  background-color: #6a4993;
+  box-shadow: 0 1px 1px 0 #6a4993;
 }
 
 .header-content {
@@ -107,6 +108,10 @@ body {
   align-items: center;
   padding: 2rem;
   text-align: center;
+  background-color: #6a4993;
+  width: 100%;
+  box-shadow: 0 1px 1px 0 #6a4993;
+  opacity: 0.9;
 }
 
 .header-content .logo {
