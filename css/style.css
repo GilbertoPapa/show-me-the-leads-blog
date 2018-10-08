@@ -468,10 +468,11 @@ p {
   justify-content: space-evenly;
   align-items: center;
   text-align: center;
-  background-color: #8a00e2;
+  background-color: #6a4993;
   color: #fff;
   padding: 0.75rem;
   font-size: 0.8rem;
+  opacity: 0.9;
 }
 
 .copyright p {
